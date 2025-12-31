@@ -37,7 +37,7 @@ const App: React.FC = () => {
         <h1 className="font-audiowide text-7xl md:text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-purple-600 drop-shadow-lg animate-pulse">
           Initialized with love by <span className="text-pink-400">app-sauce.sh</span>
         </h1>
-        
+
         <p className="font-audiowide text-3xl md:text-2xl text-purple-300 mb-8 drop-shadow-lg">
           ✨ Welcome to your next-generation app! ✨
         </p>
@@ -47,7 +47,6 @@ const App: React.FC = () => {
           <div className="text-pink-400"> <code>app-sauce-XXXXXXX.sh</code></div>
           where XXXXXXX identifies the purpose of the file, such as:
           <div className="text-pink-400"> <code>app-sauce-websockets.sh</code></div>
-          <div>I am very likely to add command line options, and merge additional files into the main one</div>
         </p>
 
 
@@ -70,3 +69,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+
