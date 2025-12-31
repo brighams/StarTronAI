@@ -3,7 +3,7 @@ import './styles/index.css';
 
 const App: React.FC = () => {
   const openGitHub = () => {
-    window.open('https://github.com/brighams/StarTronAI', '_blank');
+    window.open('https://github.com/brighams/typescript-tailwind-webpack-sauce', '_blank');
   };
 
   return (
@@ -34,27 +34,27 @@ const App: React.FC = () => {
 
       {/* Main Content */}
       <div className="text-center px-8 max-w-3xl">
-        <h1 className="font-audiowide text-7xl md:text-8xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-purple-600 drop-shadow-lg animate-pulse">
-          StarTronAI
+        <h1 className="font-audiowide text-7xl md:text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-purple-600 drop-shadow-lg animate-pulse">
+          Initialized with love by <span className="text-pink-400">app-sauce.sh</span>
         </h1>
         
-        <p className="font-audiowide text-3xl md:text-4xl text-purple-300 mb-8 drop-shadow-lg">
+        <p className="font-audiowide text-3xl md:text-2xl text-purple-300 mb-8 drop-shadow-lg">
           ✨ Welcome to your next-generation app! ✨
         </p>
 
-        <div className="font-roboto text-xl md:text-2xl text-purple-200 space-y-4 mb-12">
-          <p className="leading-relaxed">
-            🚀 Powered by cutting-edge technology and stellar design
-          </p>
-          <p className="text-purple-300">
-            Feel free to send pull requests to <span className="font-bold text-pink-400">StarTronAI</span>
-          </p>
-        </div>
-      </div>
+        <p className="font-audiowide text-3xl md:text-base text-purple-300 mb-8 drop-shadow-lg">
+          If you wish to add additional files or packages, and share them with a pull request, please duplicate app-sauce.sh, add a file called:
+          <div className="text-pink-400"> <code>app-sauce-XXXXXXX.sh</code></div>
+          where XXXXXXX identifies the purpose of the file, such as:
+          <div className="text-pink-400"> <code>app-sauce-websockets.sh</code></div>
+          <div>I am very likely to add command line options, and merge additional files into the main one</div>
+        </p>
 
-      {/* Animated Progress Bar with Stars */}
-      <div className="w-full mt-16 px-8">
-        <div className="max-w-2xl mx-auto">
+
+        <div className="font-roboto text-xl md:text-2xl text-purple-200 space-y-4 mb-12">
+          <p className="text-purple-300">
+            Feel free to send pull requests to: <div className="font-bold text-pink-400"><a href='https://github.com/brighams/typescript-tailwind-webpack-sauce'>typescript-tailwind-webpack-sauce on github</a></div>
+          </p>
         </div>
       </div>
 

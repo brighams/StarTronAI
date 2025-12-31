@@ -28,15 +28,7 @@ body {
     }
 
     p {
-        @apply font-roboto mb-4;
-    }
-
-    label {
-        @apply font-comfortaa;
-    }
-
-    button, a.btn {
-        @apply font-comfortaa;
+        @apply mb-4;
     }
 }
 

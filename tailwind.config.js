@@ -10,11 +10,9 @@ module.exports = {
     extend: {
       fontFamily: {
         audiowide: ['Audiowide', 'cursive'],
-        comfortaa: ['Comfortaa', 'sans-serif'],
-        roboto: ['"Roboto Serif"', 'serif'],
-        emoji: ['"Noto Color Emoji"', 'sans-serif'],
       },
       colors: {
+        // EXAMPLE THEMES (unused)
         // Midnight Van Gogh Theme (Dark)
         'midnight': {
           50: '#f2f0ff',
