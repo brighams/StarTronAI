@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/app.css';
+import './styles/index.css';
 
 const App: React.FC = () => {
   const openGitHub = () => {
@@ -55,31 +55,6 @@ const App: React.FC = () => {
       {/* Animated Progress Bar with Stars */}
       <div className="w-full mt-16 px-8">
         <div className="max-w-2xl mx-auto">
-          <div className="relative h-16 bg-gradient-to-r from-purple-900/30 via-purple-800/30 to-purple-900/30 rounded-full overflow-hidden border-2 border-purple-500/50 shadow-lg shadow-purple-500/20">
-            {/* Animated stars moving across the bar */}
-            <div className="absolute inset-0 flex items-center overflow-hidden">
-              <div className="absolute inset-0 animate-barber-pole">
-                <div className="flex items-center justify-around h-full whitespace-nowrap">
-                  <span className="text-4xl drop-shadow-lg">★</span>
-                  <span className="text-4xl drop-shadow-lg">★</span>
-                  <span className="text-4xl drop-shadow-lg">★</span>
-                  <span className="text-4xl drop-shadow-lg">★</span>
-                  <span className="text-4xl drop-shadow-lg">★</span>
-                  <span className="text-4xl drop-shadow-lg">★</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Pulsing glow effect */}
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-purple-400/30 to-transparent animate-pulse"></div>
-          </div>
-
-          {/* Throb animation below */}
-          <div className="mt-6 text-center">
-            <div className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-purple-800 shadow-lg shadow-purple-500/50 animate-throb">
-              <span className="font-audiowide text-lg text-purple-100">Loading cosmic data...</span>
-            </div>
-          </div>
         </div>
       </div>
 
